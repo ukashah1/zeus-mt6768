@@ -11,6 +11,7 @@
 #
 .*
 *.a
+*.bin
 *.bz2
 *.c.[012]*.*
 *.dtb
@@ -19,7 +20,7 @@
 *.elf
 *.gcno
 *.gz
-#*.i
+*.i
 *.ko
 *.ll
 *.lst
@@ -124,3 +125,24 @@ all.config
 
 # fetched Android config fragments
 kernel/configs/android-*.cfg
+
+# Base
+AnyKernel3-master/
+
+
+# Output
+outL/
+outM/
+outS/
+
+# Build scripts
+lancelot.sh
+merlin.sh
+shiva.sh
+
+# Clang
+clang/
+proton-clang/
+GengKapak-clang/
+silont-clang/
+ace-clang/
